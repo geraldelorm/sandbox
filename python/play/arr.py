@@ -23,5 +23,30 @@ print("After updating the array using the append() method: ", end=' ')
 arr.append(5)
 for item in arr:
     print(item, end=' ')
+print()
 
 
+#Accessing an element inan array
+print("Element at index 2 in arr is: ", arr[2])
+print("Element at index 0 in arr is: ", arr[0])
+print()
+
+
+#Removing an element form an array
+print("Removing the last element with pop()", arr.pop())
+print(arr)
+print
+
+print("Removing the forst element with pop(0)", arr.pop(0))
+print(arr)
+print()
+
+
+#Remove from array using value
+print("Append 9 to arr")
+arr.append(9)
+print(arr)
+print("Remove 9 from arr")
+arr.remove(9)
+print(arr)
+print()
