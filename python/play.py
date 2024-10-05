@@ -18,3 +18,23 @@ perms = permutations(arr1)
 
 # Printing result of comparism
 print(compare(perms, arr2))
+
+
+
+# def fact(N):
+#     if N < 2:
+#         return 1
+
+#     return N * fact(N - 1)  
+
+# number = input()               
+                                
+# for _ in range(int(number)):
+#     N = input()
+#     print(fact(int(N)))
+
+
+
+
+print(chr(50))
+print(ord("2"))
